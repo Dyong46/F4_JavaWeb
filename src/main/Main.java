@@ -23,7 +23,7 @@ public class Main {
 				new SinhVien(9,"Minh Thu", 6.7));
 		// bai 1: DS SV Tren Trung Binh
 		List<SinhVien> resultx = lambdaExpress.danhSachSinhVienTrenTB(listSv);
-		//lambdaExpress.InDanhSachSinhVien(resultx);
+		lambdaExpress.InDanhSachSinhVien(resultx);
 		lambdaExpress.outPutMessage(codex.sortByNameAsc.getCode());
 	}
 }
